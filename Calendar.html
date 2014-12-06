@@ -1,0 +1,30 @@
+<!--
+	This page embeds the band google calendar into the screen of the app.
+-->
+<!DOCTYPE html>
+<html>
+	<title>&nbsp;</title>
+	<head>
+		<!--This links in jquery and other necessary libraries-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova/cordova.js"></script>
+	</head>
+	<body>
+		<div data-role="header">
+			<h1>Calendar</h1>
+		</div>
+	
+		<div role="main" class="ui-content">
+			<!--This links the calendar into the page and sets the size of the calendar-->
+			<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=460&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=harvard.university.band%40gmail.com&amp;color=%23B1365F&amp;ctz=America%2FNew_York" style=" border-width:0 " width="300" height="400" frameborder="0" scrolling="no"></iframe>
+			<!--This makes a link back to the home page-->
+			<p><a href="HUBApp.html">Home</a></p>
+		</div>
+	
+	</body>
+</html>
